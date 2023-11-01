@@ -1,0 +1,18 @@
+export const iconType = {
+  ICONICONS: 'ionicons',
+  ANTDESIGN: 'AntDesign',
+  ANT_ICON: 'ant',
+  EVIL_ICONS: 'EVIL',
+  FONT_AWESOME: 'FONTAWESOME',
+  FONT_AWESOME5: 'FontAwesome5',
+  MATERIAL_ICONS: 'MaterialIcons',
+  FEATHER: 'FEATHER',
+  ENTYPO: 'ENTYPO',
+  OCTICONS: 'OCTICONS',
+  MaterialCommunityIcons: 'MaterialCommunityIcons',
+
+  MATERIAL_COMMUNITY: 'MATERIALCOMMUNITY',
+  SIMPLELINE_ICONS: 'SIMPLELINE_ICONS',
+  FONTISTO: 'FONTISTO',
+  FOUNDATION: 'FOUNDATION',
+};

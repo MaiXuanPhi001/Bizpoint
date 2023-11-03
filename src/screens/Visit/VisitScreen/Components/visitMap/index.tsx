@@ -51,7 +51,6 @@ type valueDetailType = {
 
 const VisitMap: FunctionComponent<visitMapProps> = () => {
   const styles = useStyles();
-  const tokenmapbox = 'sk.eyJ1IjoiaGh1dXRoaWVuMiIsImEiOiJjbG9jY2gxeGMxN3A2MmtxcWFuMnAxeGN1In0.9aXcjtgUdKzswfp8Hagaug';
   Mapbox.setAccessToken(KEY_TOKEN_MAPBOX);
   const { theme } = useTheme();
   const dispatch = useAppDispatch();

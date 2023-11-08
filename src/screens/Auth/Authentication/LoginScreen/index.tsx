@@ -13,8 +13,8 @@ const LoginScreen: React.FC = () => {
   const { loginInfo, loginMessage } = useAppSelector(state => state.authReducer);
   const dispatch = useAppDispatch();
 
-  const [emailOrPhone, setEmailOrPhone] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [emailOrPhone, setEmailOrPhone] = useState<string>('Taothai@gmail.com');
+  const [password, setPassword] = useState<string>('123123');
   const [isRemember, setIsRemember] = useState<boolean>(true);
   const [error, setError] = useState<string>('');
   const [hidePassword, setHidePassword] = useState<boolean>(true);

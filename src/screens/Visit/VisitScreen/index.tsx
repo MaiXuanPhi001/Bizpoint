@@ -55,7 +55,7 @@ const VisitScreen: React.FC<CustomerDetailScreenProps> = ({ navigation }) => {
               </Text>
             </View>
           </View>
-          {/*  */}
+
           <View style={styles.bgInfo}>
             <View style={[styles.bgInfo1, {}]}>
               <IconLoading />
@@ -81,7 +81,7 @@ const VisitScreen: React.FC<CustomerDetailScreenProps> = ({ navigation }) => {
     <Wrapper isSafe barStyle>
       {renderTopInfo()}
       <View style={styles.container}>
-        <VisitMap />
+        {/* <VisitMap /> */}
       </View>
     </Wrapper>
   );
